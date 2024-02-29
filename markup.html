@@ -3,30 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practicum Library</title>
+    <title>calculator practice</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="calculator">
       <input id="display" readonly />
       <div id="keys">
-        <button onclick>+</button>
-        <button onclick>7</button>
-        <button onclick>8</button>
-        <button onclick>9</button>
-        <button onclick>-</button>
-        <button onclick>4</button>
-        <button onclick>5</button>
-        <button onclick>6</button>
-        <button onclick>*</button>
-        <button onclick>1</button>
-        <button onclick>2</button>
-        <button onclick>3</button>
-        <button onclick>/</button>
-        <button onclick>0</button>
-        <button onclick>.</button>
-        <button onclick>=</button>
-        <button onclick>C</button>
+        <button onclick="appenedtodisplay('+')" class="operator_btn">+</button>
+        <button onclick="appenedtodisplay('7')">7</button>
+        <button onclick="appenedtodisplay('8')">8</button>
+        <button onclick="appenedtodisplay('9')">9</button>
+        <button onclick="appenedtodisplay('-')" class="operator_btn">-</button>
+        <button onclick="appenedtodisplay('4')">4</button>
+        <button onclick="appenedtodisplay('5')">5</button>
+        <button onclick="appenedtodisplay('6')">6</button>
+        <button onclick="appenedtodisplay('*')" class="operator_btn">*</button>
+        <button onclick="appenedtodisplay('1')">1</button>
+        <button onclick="appenedtodisplay('2')">2</button>
+        <button onclick="appenedtodisplay('3')">3</button>
+        <button onclick="appenedtodisplay('/')" class="operator_btn">/</button>
+        <button onclick="appenedtodisplay('0')">0</button>
+        <button onclick="appenedtodisplay('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="clearDisplay()" class="operator_btn">C</button>
       </div>
     </div>
     <script src="main.js"></script>
